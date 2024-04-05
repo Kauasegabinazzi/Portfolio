@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -7,7 +7,15 @@
 
 }
 
-a{
+a {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
 }
