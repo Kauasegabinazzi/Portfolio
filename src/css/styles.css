@@ -16,3 +16,14 @@ body{
     align-items: center;
     padding: 30px 15px;
 }
+
+.cabecalho .logo{
+    background-color: orange;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 55px;
+    font-family: 'Raleway', sans-serif;
+}
