@@ -33,3 +33,20 @@ body{
     border:2px solid #9443d8;
     color: #9443d8;
 }
+
+.cabecalho .menu ul{
+    
+}
+
+.cabecalho .menu li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    transition: 0.2s; 
+}
+
+.cabecalho .menu li a:hover{
+    background-color: #9443d8;
+    color: #fff;
+    border-radius: 50px;
+}
