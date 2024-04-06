@@ -50,3 +50,32 @@ body{
     color: #fff;
     border-radius: 50px;
 }
+
+.home{
+    display: flex;
+    min-height: calc(100vh -125px);
+    align-items: center;
+    gap:50px;
+    justify-content: space-between;
+}
+
+.home .informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+    max-width: 50%;
+}
+
+.home .informacoes h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.home .informacoes p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
