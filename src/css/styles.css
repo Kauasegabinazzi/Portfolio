@@ -1,6 +1,6 @@
 html {
     color: #fff;
-
+    scroll-behavior: smooth;
 }
 
 body {
@@ -114,11 +114,11 @@ body {
     animation: gradient-animation 5s ease infinite;
 }
 
-.projetos{
+.projetos {
     padding: 70px 0 70px;
 }
 
-.projetos .title{
+.projetos .title {
     text-align: center;
     padding: 60px 0;
     font-size: 45px;
@@ -126,7 +126,7 @@ body {
     text-transform: uppercase;
 }
 
-.projetos .container-projects{
+.projetos .container-projects {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -134,22 +134,22 @@ body {
     justify-content: center;
 }
 
-.projetos .projeto{
+.projetos .projeto {
     max-width: 260px;
     max-height: 500px;
     position: relative;
     display: none;
 }
 
-.projetos .projeto.ativos{
+.projetos .projeto.ativos {
     display: block;
 }
 
-.projetos .projeto img{
+.projetos .projeto img {
     height: 100%;
 }
 
-.projetos .projeto h3{
+.projetos .projeto h3 {
     background-color: #040203;
     width: 100%;
     padding-left: 20px;
@@ -159,27 +159,43 @@ body {
     bottom: 0;
 }
 
-.projetos .projeto .informacoes-projeto{
-   position: absolute;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   font-weight: 600;
-   opacity: 0;
-   transition: 0.3s;
-   padding: 20px;
+.projetos .projeto .informacoes-projeto {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    opacity: 0;
+    transition: 0.3s;
+    padding: 20px;
 }
 
-.projetos .container-projects .projeto:hover .informacoes-projeto{
+.projetos .container-projects .projeto:hover .informacoes-projeto {
     opacity: 0.7;
     background-color: #000;
 }
 
-.projetos .btn-show-projets{
+.projetos .btn-show-projets {
     background: none;
     border: 1px solid #fff;
     border-radius: 15px;
     color: #fff;
     width: 180px;
     padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.projetos .btn-show-projets:hover {
+    background-color: #9443d8;
+    transition: 0.3s;
+}
+
+.projetos .btn-show-projets.remover {
+    display: none;
 }
