@@ -167,4 +167,19 @@ body {
    font-weight: 600;
    opacity: 0;
    transition: 0.3s;
+   padding: 20px;
+}
+
+.projetos .container-projects .projeto:hover .informacoes-projeto{
+    opacity: 0.7;
+    background-color: #000;
+}
+
+.projetos .btn-show-projets{
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    width: 180px;
+    padding: 20px;
 }
