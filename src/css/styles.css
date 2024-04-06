@@ -4,10 +4,11 @@ html {
 }
 
 body {
-    background-color: #282828;
     font-family: 'Poppins', sans-serif;
     margin: 0 auto 0 auto;
     max-width: 1120px;
+    background: linear-gradient(150deg, #000000, #9e00ff);
+    background-size: 120% 120%;
 }
 
 .cabecalho {
@@ -198,4 +199,18 @@ body {
 
 .projetos .btn-show-projets.remover {
     display: none;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
