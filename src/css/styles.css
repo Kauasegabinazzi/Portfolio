@@ -125,3 +125,26 @@ body {
     font-weight: 500;
     text-transform: uppercase;
 }
+
+.projetos .container-projects{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.projetos .projeto{
+    max-width: 260px;
+    max-height: 500px;
+    position: relative;
+    display: none;
+}
+
+.projetos .projeto.ativos{
+    display: block;
+}
+
+.projetos .projeto img{
+    height: 100%;
+}
